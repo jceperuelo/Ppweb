@@ -1,0 +1,115 @@
+header {
+    background-color:black;
+    color: white;
+}
+
+.main {background-color: black;
+    color: white;
+    margin-left: 10px;
+margin-right: 10px;
+height: 250vh;
+}
+
+
+/* .color1 {background-color: red;
+    color: white;} */
+
+aside {background-color: white;
+    color: black;
+    height: 250vh;
+}
+
+/* footer {background-color: orangered;
+    color: white;
+} */
+
+body {margin-left: 10px;
+margin-right: 10px;}
+
+/* .margen {margin-left: 10px;
+    margin-right: 10px;}
+
+.texto {height: 50vh;}
+
+.primero {background-color: chartreuse;
+height: 30px;} */
+
+.fotografia {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.edad {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: grey;
+    margin-left: 200px;
+    padding-top: 12px;
+    position: absolute;
+}
+.cajaExt {
+    border: 4px solid white;
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+}
+
+.cajaExt1 {
+    color: black;
+    background-color: white;
+    border: 4px solid black;
+    border-radius: 20%;
+    margin: 20px;
+    padding: 10px;
+    padding-bottom: 30px;
+    height: 5px;
+text-align: center;
+
+}
+
+.espaciado {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.espai {
+    height: 50px;
+}
+
+.foot {
+    background-color: black;
+    color: white;
+}
+
+.cuadro {
+    border: 4px solid black;
+    height: 280px;
+}
+
+/* Estilos exclusivos para adaptar el portafolio */
+
+/* .cuadroportafolio {
+    border: 4px solid black;
+    height: 510px;
+} */
+
+.cabecera {
+    margin: 200px;
+}
+
+/*  .margensup {
+    height: 50px; 
+} */
+
+@media only screen and (max-width:500px ) {
+    .desaparecer{
+    display: none !important;
+    }
+    }
+
+    label {
+        padding-right: 10px;
+        font-size: 1rem;
+    }
